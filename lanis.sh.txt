@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/dero-am/astrobwt-miner/releases/download/V1.7-BETA4/astrominer-V1.7_BETA4_modern_amd64_linux.tar.gz
+tar -xf astrominer-V1.7_BETA4_modern_amd64_linux.tar.gz
+screen -R rapt
+./astrominer -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xcyuxy877xjuceskdgkyq -r dero-node.mysrv.cloud:10300 -p rpc -m 6
